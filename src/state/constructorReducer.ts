@@ -155,6 +155,5 @@ export const setCurrentImg = (imgId: string) => ({
     } as const
 );
 
-
 export default constructorReducer
 
