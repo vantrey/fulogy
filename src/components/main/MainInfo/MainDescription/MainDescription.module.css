@@ -1,0 +1,16 @@
+.descriptionWrap {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.description {
+    composes: descriptionWrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.descriptionItem {
+    width: 200px;
+}

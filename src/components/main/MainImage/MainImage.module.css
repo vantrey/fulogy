@@ -1,0 +1,26 @@
+.mainImage {
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.switcherWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 220px;
+    bottom: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.switcher {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
